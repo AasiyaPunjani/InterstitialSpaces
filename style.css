@@ -1,0 +1,381 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('aasiya-bedroom.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#gaza {
+    position: absolute;
+width: 180px;
+top: 190px;
+left: 283px;
+}
+
+#bangles {
+    position: absolute;
+    width: 160px; 
+    top: 140px;
+    left: 900px;
+}
+
+#bangles .pop {
+    position: absolute;
+    width: 400px;  
+    height: auto;  
+    left: 30px;       
+    top: 40px;
+    opacity: 0;    
+    transition: opacity 0.2s ease-in-out;
+    pointer-events: none; 
+}
+
+#bangles .hide {
+    position: absolute;
+    width: 60px; 
+    left: 50px;
+    top: 50px;
+    height: auto;
+    opacity: 0%; 
+    transition: opacity 0.1s ease-in-out;
+}
+
+#bangles:hover .pop {
+    opacity: 1; 
+}
+
+#bangles:hover .hide {
+    opacity: 0; 
+}
+
+img {
+
+    width: 100%;
+}
+
+.pop {
+    position: absolute;
+    width: 550px;
+    left: -5px;
+    top: -10px;
+    height: auto;
+    opacity: 0; 
+    transition: opacity 0.2s ease-in-out;
+    pointer-events: none; 
+}
+
+.hide {
+    position: absolute;
+    width: 160px;
+    height: auto;
+    opacity: 0%; 
+    transition: opacity 0.1s ease-in-out;
+}
+
+.hoverable .hide:hover + .pop {
+    opacity: 1; 
+}
+
+
+
+.hoverable:hover .pop {
+    opacity: 1;
+}
+
+.hoverable:hover .hide {
+    opacity: 0;
+}
+
+#artposter {
+    position: absolute;
+    width: 160px; 
+    top: 140px;
+    left: 900px;
+}
+
+#artposter .pop {
+    position: absolute;
+    width: 400px;  
+    height: auto;  
+    left: -440px;       
+    top: -70px;
+    opacity: 0;    
+    transition: opacity 0.2s ease-in-out;
+    pointer-events: none; 
+}
+
+#artposter .hide {
+    position: absolute;
+    width: 84px; 
+    left: -275px;
+    top: -10px;
+    height: auto;
+    opacity: 00%; 
+    transition: opacity 0.1s ease-in-out;
+}
+
+#artposter:hover .pop {
+    opacity: 1; 
+}
+
+#artposter:hover .hide {
+    opacity: 0; 
+}
+
+#riso {
+    position: absolute;
+    width: 160px; 
+    top: 140px;
+    left: 900px;
+}
+
+#riso .pop {
+    position: absolute;
+    width: 400px;  
+    height: auto;  
+    left: -20px;       
+    top: 140px;
+    opacity: 0;    
+    transition: opacity 0.2s ease-in-out;
+    pointer-events: none; 
+}
+
+#riso .hide {
+    position: absolute;
+    width: 84px; 
+    left: 0px;
+    top: 200px;
+    height: auto;
+    opacity: 00%; 
+    transition: opacity 0.1s ease-in-out;
+}
+
+#riso:hover .pop {
+    opacity: 1; 
+}
+
+#riso:hover .hide {
+    opacity: 0; 
+}
+
+#vase {
+    position: absolute;
+    width: 160px; 
+    top: 140px;
+    left: 900px;
+}
+
+#vase .pop {
+    position: absolute;
+    width: 450px;  
+    height: auto;  
+    left: 120px;
+    top: 210px;
+    opacity: 0%;    
+    transition: opacity 0.2s ease-in-out;
+    pointer-events: none; 
+}
+
+#vase .hide {
+    position: absolute;
+    width: 100px; 
+    left: 150px;
+    top: 240px;
+    height: auto;
+    opacity: 00%; 
+    transition: opacity 0.1s ease-in-out;
+}
+
+#vase:hover .pop {
+    opacity: 1; 
+}
+
+#vase:hover .hide {
+    opacity: 0; 
+}
+
+#cds {
+    position: absolute;
+    width: 160px; 
+    top: 140px;
+    left: 900px;
+}
+
+#cds .pop {
+    position: absolute;
+    width: 560px;  
+    height: auto;  
+    left: -160px;
+    top: 580px;
+    opacity: 0%;    
+    transition: opacity 0.2s ease-in-out;
+    pointer-events: none; 
+}
+
+#cds .hide {
+    position: absolute;
+    width: 230px; 
+    left: 170px;
+    top: 630px;
+    height: auto;
+    opacity: 00%; 
+    transition: opacity 0.1s ease-in-out;
+}
+
+#cds:hover .pop {
+    opacity: 1; 
+}
+
+#cds:hover .hide {
+    opacity: 0; 
+}
+#strawberry {
+    position: absolute;
+    width: 160px; 
+    top: 140px;
+    left: 900px;
+}
+
+#strawberry .pop {
+    position: absolute;
+    width: 560px;  
+    height: auto;  
+    left: 20px;
+    top: 10px;
+    opacity: 0%;    
+    transition: opacity 0.2s ease-in-out;
+    pointer-events: none; 
+}
+
+#strawberry .hide {
+    position: absolute;
+    width: 360px; 
+    left: 150px;
+    top: 50px;
+    height: auto;
+    opacity: 00%; 
+    transition: opacity 0.1s ease-in-out;
+}
+
+#strawberry:hover .pop {
+    opacity: 1; 
+}
+
+#strawberry:hover .hide {
+    opacity: 0; 
+}
+
+#pokemon {
+    position: absolute;
+    width: 160px; 
+    top: 140px;
+    left: 900px;
+}
+
+#pokemon .pop {
+    position: absolute;
+    width: 420px;  
+    height: auto;  
+    left: -885px;
+    top: 310px;
+    opacity: 0%;    
+    transition: opacity 0.2s ease-in-out;
+    pointer-events: none; 
+}
+
+#pokemon .hide {
+    position: absolute;
+    width: 250px; 
+    left: -885px;
+    top: 340px;
+    height: auto;
+    opacity: 00%; 
+    transition: opacity 0.1s ease-in-out;
+}
+
+#pokemon:hover .pop {
+    opacity: 1; 
+}
+
+#pokemon:hover .hide {
+    opacity: 0; 
+}
+
+#doors {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#doors .hide {
+    width: 200px; 
+    height: auto;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+#doors .pop {
+    width: 300px; 
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+#doors:hover .pop {
+    opacity: 1;
+}
+
+#doors:hover .hide {
+    opacity: 0;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;  
+    height: 100vh;
+    background: url('aasiya/aasiya-bedroom/overlay.png') no-repeat center center;
+    background-size: cover;
+    z-index: 10;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+    min-height: 100vh;
+}
+
+
+
+/* When hovering over the eye, make the overlay visible */
+#eye:hover ~ #overlay {
+    opacity: 1;
+    pointer-events: auto;  /* Allow interaction when visible */
+}
+
+#eye:hover {
+    opacity: 0; /* Make the eye disappear */
+    pointer-events: none; /* Prevent interactions */
+}
+
+#eye {
+    position: fixed;
+    opacity: 90%;
+    width: 160px;  
+    left: 50%;  
+    transform: translateX(-50%); 
+    top: 870px; 
+    z-index: 20; 
+}
+
+
